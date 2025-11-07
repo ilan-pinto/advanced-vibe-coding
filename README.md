@@ -37,6 +37,7 @@ Before starting either lab, ensure you have the following installed:
 - **tmux**: Terminal multiplexer - [Installation Guide](https://github.com/tmux/tmux/wiki/Installing)
 - **Podman**: Container engine - [Install Podman](https://podman.io/getting-started/installation)
 - **podman-compose**: Container orchestration tool - [podman-compose GitHub](https://github.com/containers/podman-compose)
+- **Speckit**: Spec-Driven Development toolkit - [GitHub Spec Kit](https://github.com/github/spec-kit)
 
 ### Optional (to run the applications)
 - **Node.js**: For JavaScript/TypeScript services
@@ -90,6 +91,10 @@ Before starting either lab, ensure you have the following installed:
 - TypeScript/React with PatternFly 5 (Frontend)
 - Podman (Containerization)
 
+**About the Specifications**:
+
+The Lab 2 specifications (`spec.md`, `plan.md`, `tasks.md`, and related files) were created using [GitHub's Speckit](https://github.com/github/spec-kit), a toolkit for Spec-Driven Development (SDD). Speckit helps structure software requirements so that AI agents can work from them effectively. This approach focuses on defining clear product scenarios and predictable outcomes before implementation begins.
+
 **Instructions**:
 
 1. **Setup the spawn command**:
@@ -130,18 +135,18 @@ Before starting either lab, ensure you have the following installed:
 
 These commands are essential for Lab 2 to monitor and interact with the automated agents:
 
-| Command | Description |
-|---------|-------------|
-| `tmux ls` | List all tmux sessions |
-| `tmux attach -t <session>` | Attach to a specific session |
-| `Ctrl+b d` | Detach from current session |
-| `Ctrl+b c` | Create new window in session |
-| `Ctrl+b n` | Navigate to next window |
-| `Ctrl+b p` | Navigate to previous window |
-| `Ctrl+b w` | List all windows |
-| `Ctrl+b ,` | Rename current window |
-| `tmux kill-session -t <session>` | Kill a specific session |
-| `tmux kill-server` | Kill all tmux sessions |
+| Command                          | Description                  |
+| -------------------------------- | ---------------------------- |
+| `tmux ls`                        | List all tmux sessions       |
+| `tmux attach -t <session>`       | Attach to a specific session |
+| `Ctrl+b d`                       | Detach from current session  |
+| `Ctrl+b c`                       | Create new window in session |
+| `Ctrl+b n`                       | Navigate to next window      |
+| `Ctrl+b p`                       | Navigate to previous window  |
+| `Ctrl+b w`                       | List all windows             |
+| `Ctrl+b ,`                       | Rename current window        |
+| `tmux kill-session -t <session>` | Kill a specific session      |
+| `tmux kill-server`               | Kill all tmux sessions       |
 
 **Pro Tip**: Use `tmux attach` to watch each agent's progress in real-time.
 
@@ -167,18 +172,17 @@ claude
 
 This innovation lab allows you to compare and contrast different AI-assisted development approaches:
 
-| Aspect | Lab 1 (Manual) | Lab 2 (Automated) |
-|--------|----------------|-------------------|
-| **Orchestration** | Manual copy/paste | Automated via spawn command |
-| **Terminals** | 6 separate terminals | 1 terminal + tmux sessions |
-| **Agents** | 6 parallel agents | 7 sequential agents |
-| **Tech Stack** | Node.js-heavy, simple | Polyglot (Python/Go/Rust/Node) |
-| **Git Workflow** | Single branch | Git worktrees per agent |
-| **Complexity** | Beginner-friendly | Advanced |
-| **UI Framework** | Tailwind CSS | PatternFly 5 |
-| **Containers** | Docker | Podman |
-| **Task Tracking** | Manual | Automated with completed tasks.md |
-| **Dependencies** | Ad-hoc | Declared in tasks.md |
+| Aspect            | Lab 1 (Manual)        | Lab 2 (Automated)                 |
+| ----------------- | --------------------- | --------------------------------- |
+| **Orchestration** | Manual copy/paste     | Automated via spawn command       |
+| **Terminals**     | 6 separate terminals  | 1 terminal + tmux sessions        |
+| **Agents**        | 6 parallel agents     | 7 sequential+parallel  agents     |
+| **Tech Stack**    | Node.js-heavy, simple | Polyglot (Python/Go/Rust/Node)    |
+| **Git Workflow**  | Single branch         | Git worktrees per agent           |
+| **Complexity**    | Beginner-friendly     | Advanced                          |
+| **UI Framework**  | Tailwind CSS          | PatternFly 5                      |
+| **Task Tracking** | Manual                | Automated with completed tasks.md |
+| **Dependencies**  | Ad-hoc                | Declared in tasks.md              |
 
 **Key Insights**:
 - **Speed**: Lab 2's automation reduces setup time significantly
