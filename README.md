@@ -34,9 +34,9 @@ Before starting either lab, ensure you have the following installed:
 - **Git**: Version control system
 
 ### Required for Lab 2
-- **tmux**: Terminal multiplexer
-- **Podman**: Container engine
-- **podman-compose**: Container orchestration tool
+- **tmux**: Terminal multiplexer - [Installation Guide](https://github.com/tmux/tmux/wiki/Installing)
+- **Podman**: Container engine - [Install Podman](https://podman.io/getting-started/installation)
+- **podman-compose**: Container orchestration tool - [podman-compose GitHub](https://github.com/containers/podman-compose)
 
 ### Optional (to run the applications)
 - **Node.js**: For JavaScript/TypeScript services
