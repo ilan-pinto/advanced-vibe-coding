@@ -32,11 +32,11 @@ Before starting either lab, ensure you have the following installed:
 ### Required for Both Labs
 - **Claude CLI**: [Install Claude Code](https://docs.claude.com/claude-code)
 - **Git**: Version control system
+- **Podman**: Container engine - [Install Podman](https://podman.io/getting-started/installation)
+- **podman-compose**: Container orchestration tool - [podman-compose GitHub](https://github.com/containers/podman-compose)
 
 ### Required for Lab 2
 - **tmux**: Terminal multiplexer - [Installation Guide](https://github.com/tmux/tmux/wiki/Installing)
-- **Podman**: Container engine - [Install Podman](https://podman.io/getting-started/installation)
-- **podman-compose**: Container orchestration tool - [podman-compose GitHub](https://github.com/containers/podman-compose)
 - **Speckit**: Spec-Driven Development toolkit - [GitHub Spec Kit](https://github.com/github/spec-kit)
 
 ### Optional (to run the applications)
@@ -57,7 +57,7 @@ Before starting either lab, ensure you have the following installed:
 - Node.js/Express (Product & Order Services, API Gateway)
 - Python/FastAPI (User Service)
 - React with Tailwind CSS (Frontend)
-- Docker (Containerization)
+- Podman (Containerization)
 
 **Instructions**:
 
