@@ -30,7 +30,7 @@ This is a read-only dashboard focused on data visualization and monitoring, not 
 Before starting either lab, ensure you have the following installed:
 
 ### Required for Both Labs
-- **Claude CLI**: [Install Claude Code](https://docs.claude.com/claude-code)
+- **Claude CLI**: [Install Claude Code](https://docs.google.com/document/d/1eNARy9CI28o09E7Foq01e5WD5MvEj3LSBnXqFcprxjo/edit?tab=t.0#heading=h.8ldy5by9bpo8)
 - **Git**: Version control system
 - **Podman**: Container engine - [Install Podman](https://podman.io/getting-started/installation)
 - **podman-compose**: Container orchestration tool - [podman-compose GitHub](https://github.com/containers/podman-compose)
