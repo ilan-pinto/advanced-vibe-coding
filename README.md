@@ -199,7 +199,8 @@ This innovation lab allows you to compare and contrast different AI-assisted dev
 - **Real-world Application**: Lab 2 demonstrates enterprise-grade patterns
 
 
-**Video**
-[![Video Title](https://img.youtube.com/vi/2Www4L9Anfg/0.jpg)](https://www.youtube.com/watch?v=2Www4L9Anfg) 
+## Lab2 - Video
+
+[![Lab 2 ](https://img.youtube.com/vi/2Www4L9Anfg/0.jpg)](https://www.youtube.com/watch?v=2Www4L9Anfg) 
 
 
