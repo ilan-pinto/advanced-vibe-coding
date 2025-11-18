@@ -76,13 +76,10 @@ for Red Hatter only use [this link](https://docs.google.com/document/d/1eNARy9CI
 
 **Learning Outcome**: Understanding manual coordination of parallel development tasks and multi-terminal workflows.
 
-<div align="center">
-    <iframe src="https://drive.google.com/file/d/1UcTEhgK3akwwCsNb9uj2Ev6jZJa-pd1l/preview"
-            width="640"
-            height="480"
-            allow="autoplay">
-    </iframe>
-</div>
+## Lab1 - Video
+
+[![Lab 1](https://img.youtube.com/vi/X7dgUYmKx18/0.jpg)](https://www.youtube.com/watch?v=X7dgUYmKx18) 
+
 ---
 
 ### Lab 2: Automated Multi-Agent Development
@@ -176,6 +173,10 @@ claude
 # Then run: /spawn
 ```
 
+## Lab2 - Video
+
+[![Lab 2 ](https://img.youtube.com/vi/2Www4L9Anfg/0.jpg)](https://www.youtube.com/watch?v=2Www4L9Anfg) 
+
 ## Comparison
 
 This innovation lab allows you to compare and contrast different AI-assisted development approaches:
@@ -199,8 +200,6 @@ This innovation lab allows you to compare and contrast different AI-assisted dev
 - **Real-world Application**: Lab 2 demonstrates enterprise-grade patterns
 
 
-## Lab2 - Video
 
-[![Lab 2 ](https://img.youtube.com/vi/2Www4L9Anfg/0.jpg)](https://www.youtube.com/watch?v=2Www4L9Anfg) 
 
 
