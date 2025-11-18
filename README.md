@@ -30,7 +30,8 @@ This is a read-only dashboard focused on data visualization and monitoring, not 
 Before starting either lab, ensure you have the following installed:
 
 ### Required for Both Labs
-- **Claude CLI**: [Install Claude Code](https://docs.google.com/document/d/1eNARy9CI28o09E7Foq01e5WD5MvEj3LSBnXqFcprxjo/edit?tab=t.0#heading=h.8ldy5by9bpo8)
+- **Claude CLI**: [Install Claude Code](https://www.claude.com/download)
+for Red Hatter only use [this link](https://docs.google.com/document/d/1eNARy9CI28o09E7Foq01e5WD5MvEj3LSBnXqFcprxjo/edit?tab=t.0#heading=h.8ldy5by9bpo8)
 - **Git**: Version control system
 - **Podman**: Container engine - [Install Podman](https://podman.io/getting-started/installation)
 - **podman-compose**: Container orchestration tool - [podman-compose GitHub](https://github.com/containers/podman-compose)
@@ -106,7 +107,7 @@ The Lab 2 specifications (`spec.md`, `plan.md`, `tasks.md`, and related files) w
 2. **Navigate to lab2 and start Claude**:
    ```bash
    cd lab2
-   claude
+   claude --dangerously-skip-permissions
    ```
 
 3. **Review the specifications** (optional but recommended):
