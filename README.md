@@ -200,4 +200,6 @@ This innovation lab allows you to compare and contrast different AI-assisted dev
 
 
 **Video**
-[![lab 2](https://youtu.be/2Www4L9Anfg)
+[![Video Title](https://img.youtube.com/vi/2Www4L9Anfg/0.jpg)](https://www.youtube.com/watch?v=2Www4L9Anfg) 
+
+
