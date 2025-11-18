@@ -83,7 +83,6 @@ for Red Hatter only use [this link](https://docs.google.com/document/d/1eNARy9CI
             allow="autoplay">
     </iframe>
 </div>
-
 ---
 
 ### Lab 2: Automated Multi-Agent Development
