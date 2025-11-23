@@ -13,9 +13,9 @@ Create a Node.js Express microservice for products on port 8001. Include endpoin
   - POST /products - Create product
 - In-memory storage with 10 sample products (electronics, books, clothing)
 - Each product: { id, name, price, description, category, stock, imageUrl }
-- CORS enabled for all origins
+- CORS enabled for all origins"
 
-" 
+
 # Terminal 2 - User Service 
 claude --dangerously-skip-permissions "
 as part of the microservices demo create a folder ./user-service  
@@ -30,9 +30,8 @@ Create a Python FastAPI microservice for users on port 8002. Include endpoints f
   - POST /users - Create user
 - In-memory storage with 5 sample users
 - Each user: { id, name, email, avatar, registrationDate, role }
-- CORS middleware configured
+- CORS middleware configured"
 
-"
  # Terminal 3 - Order Service 
  claude --dangerously-skip-permissions "
  as part of the microservices demo create a folder ./order-service 
@@ -49,7 +48,7 @@ Create a Python FastAPI microservice for users on port 8002. Include endpoints f
 - Each order: { id, userId, products: [{productId, quantity}], status, total, createdAt }
 - Status enum: ['pending', 'processing', 'shipped', 'delivered']
 - Make HTTP calls to product and user services for validation"
-" 
+
 
  # Terminal 4 -  API Gateway
  claude --dangerously-skip-permissions "
@@ -66,9 +65,9 @@ Create a Python FastAPI microservice for users on port 8002. Include endpoints f
   - /health -> aggregate health check of all services
 - Use http-proxy-middleware for routing with pathRewrite to keep the service path
 - CORS enabled for all origins
-- Request logging middleware " 
+- Request logging middleware "
+- 
 # Terminal 5 - Frontend UI 
-
 claude --dangerously-skip-permissions "
 as part of the microservices demo create a folder ./frontend
 Create a React dashboard that displays data from an API gateway at localhost:8000. Show three sections: Products (grid view with prices), Users (list with avatars), and Orders (table with status badges). Use Tailwind CSS for styling. Auto-refresh data every 5 seconds. 
@@ -92,7 +91,8 @@ Create a React dashboard that displays data from an API gateway at localhost:800
 - Modern, clean design with shadows and hover effects"
 
 # Terminal 6
-claude --dangerously-skip-permissions "Create a complete containerized of the below  services which are under the below folders:
+claude --dangerously-skip-permissions "
+Create a complete containerized of the below  services which are under the below folders:
 
 ## Project Structure
 Create a root directory with 5 service subdirectories:
@@ -101,7 +101,6 @@ Create a root directory with 5 service subdirectories:
 - ./order-service
 - ./api-gateway
 - ./frontend
-ß
 
 ## Docker Configuration
 
